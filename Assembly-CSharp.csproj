@@ -63,16 +63,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Audio\AudioPlayer.cs" />
     <Compile Include="Assets\UI\3dResonsiveUI\ObjectKeeper.cs" />
     <Compile Include="Assets\UI\3dResonsiveUI\ScaleObjectKeeper.cs" />
-    <Compile Include="Assets\UI\Button\Audio\AudioPlayer.cs" />
-    <Compile Include="Assets\UI\Button\Button3D.cs" />
     <Compile Include="Assets\UI\Button\MaterialControler.cs" />
-    <Compile Include="Assets\UI\Holograph\HolographButton.cs" />
-    <Compile Include="Assets\UI\Holograph\HolographControler.cs" />
-    <Compile Include="Assets\UI\Holograph\HolographicTimer.cs" />
+    <Compile Include="Assets\UI\Holograph\Scripts\HolographButton.cs" />
+    <Compile Include="Assets\UI\Holograph\Scripts\HolographControler.cs" />
+    <Compile Include="Assets\UI\Holograph\Scripts\HolographicTimer.cs" />
     <None Include="Assets\UI\Button\GlowShader.shader" />
-    <None Include="Assets\UI\Holograph\Holographic.shader" />
+    <None Include="Assets\UI\Holograph\Shaders\Holographic.shader" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/UnityProjects/Gamesture/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
