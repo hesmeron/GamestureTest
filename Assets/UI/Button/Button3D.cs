@@ -5,10 +5,8 @@ using UnityEngine;
 
 public class Button3D : MonoBehaviour
 {
-    [SerializeField]
-    public Action action;
-    public Func<int> function;
     // Start is called before the first frame update
+
     void Start()
     {
         
@@ -16,10 +14,6 @@ public class Button3D : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-        
-    }
-    public void OnMouseDown()
     {
         
     }
